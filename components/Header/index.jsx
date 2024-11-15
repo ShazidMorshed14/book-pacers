@@ -38,6 +38,12 @@ const Header = () => {
 
   const usePathName = usePathname();
 
+  useEffect(() => {
+    if (navbarOpen) {
+      navbarToggleHandler();
+    }
+  }, [usePathName]);
+
   return (
     <>
       <header

@@ -222,17 +222,8 @@ const Footer = () => {
                 rel="noopener noreferrer"
                 className="hover:text-primary"
               >
-                UIdeck
+                Shazid Morshed
               </a>{" "}
-              and{" "}
-              <a
-                href="https://nextjstemplates.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:text-primary"
-              >
-                Next.js Templates
-              </a>
             </p>
           </div>
         </div>
